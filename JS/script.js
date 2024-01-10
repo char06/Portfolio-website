@@ -33,23 +33,28 @@ $(".owl-carousel").owlCarousel({
   },
 });
 
-$(function () {
-  $(".chart").easyPieChart({
-    easing: "easeInOut",
-    barColor: "#fff",
-    trackColor: false,
-    scaleColor: false,
-    lineWidth: 4,
-    size: 152,
-    onStep: function (from, to, percent) {
-      $(this.el).find(".percent").text(Math.round(percent));
-    },
-  });
+var skillsTopOffset = $(".skillsSection").offset().top;
 
-  //Check on this.
-  let skillsTopOffSet = $(".skillsSection").offset().top;
-  $(window).scroll(function () {
-    if (window.pageYOffset > skillsTopOffSet - $(window).heigth() + 200) {
-    }
-  });
+$(window).scroll(function () {
+  if (window.pageYOffset > skillsTopOffset - $(window).height() + 200) {
+    $(".chart").easyPieChart({
+      easing: "easeInOut",
+      barColor: "#fff",
+      trackColor: false,
+      scaleColor: false,
+      lineWidth: 4,
+      size: 152,
+      onStep: function (from, to, percent) {
+        $(this.el).find(".percent").text(Math.round(percent));
+      },
+    });
+  }
+});
+
+//Fix count up and the skills bar deprecated varialble.
+$(".counter").each(function () {
+  var element = $(this);
+  var endVal = parseInt(element.text());
+
+  element.countup(endVal);
 });
