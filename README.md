@@ -13,3 +13,7 @@ Welcome to the repository for my personal portfolio website! This website is bui
 - **[Font Awesome](https://fontawesome.com/v4/get-started/):** Utilizing a comprehensive library of icons to enhance the visual appeal of the website.
 
 Feel free to explore the various sections to learn more about me, check out the projects I've worked on, and get in touch. I'm constantly updating it with new content and improvements. Your feedback is highly appreciated! Thank you for visiting.
+
+<img width="2232" alt="Screenshot 2024-01-10 at 11 35 00 AM" src="https://github.com/char06/Portfolio-website/assets/24831449/6df75fbd-351c-4cbb-8c7c-f49469688d06">
+
+<img width="2227" alt="Screenshot 2024-01-10 at 11 35 21 AM" src="https://github.com/char06/Portfolio-website/assets/24831449/26eb2ea5-4299-460f-90d2-852909ce9726">
