@@ -45,4 +45,11 @@ $(function () {
       $(this.el).find(".percent").text(Math.round(percent));
     },
   });
+
+  //Check on this.
+  let skillsTopOffSet = $(".skillsSection").offset().top;
+  $(window).scroll(function () {
+    if (window.pageYOffset > skillsTopOffSet - $(window).heigth() + 200) {
+    }
+  });
 });
