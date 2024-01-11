@@ -184,12 +184,14 @@ body {
     border: 1px solid black;
     padding: 10px 18px; 
     display: block;
+    text-decoration: none;
 
 }
 
 .filter li { 
     display: inline-block;
     padding: 5px;
+
 
 }
 
@@ -202,6 +204,7 @@ body {
 .filter {
     text-align: center;
     width: 100%;
+    
 }
 
 .section .heading {
@@ -218,23 +221,19 @@ body {
 
 .itemsContainer {
 	width: 100%;
+ 
 }
 
 
 .items li img {
 	width: 100%;
-
-    -webkit-transition: all 0.2s linear, 1s;
-    -moz-transition: all 0.2s linear, 1s;
-    -o-transition: all 0.2s linear, 1s;
-    -ms-transition: all 0.2s linear, 1s;
-    -transition: all 0.2s linear, 1s;
 }
 
 .items .item {
 	position: relative;
 	display: block;
 	overflow: hidden;
+
 }
 
 .items .icons {
@@ -261,13 +260,6 @@ body {
     position: relative;
     display: inline-block;
 
-
-    -webkit-transition: all 0.2s linear, 0.2s;
-    -moz-transition: all 0.2s linear, 0.2s;
-    -o-transition: all 0.2s linear, 0.2s;
-    -ms-transition: all 0.2s linear, 0.2s;
-    -transition: all 0.2s linear, 0.2s;
-
 }
 
 .items .imageOverlay {
@@ -279,11 +271,6 @@ body {
     top: 0px;
     opacity: 0;
 
-    -webkit-transition: all 0.2s linear, 1s;
-    -moz-transition: all 0.2s linear, 1s;
-    -o-transition: all 0.2s linear, 1s;
-    -ms-transition: all 0.2s linear, 1s;
-    -transition: all 0.2s linear, 1s;
 }
 
 .items .item:hover .imageOverlay {
@@ -310,4 +297,34 @@ body {
 
 .items {
 	padding: 0;
+}
+
+#navigation {
+	background-color: #000000;
+    padding: 20px 10px;
+    z-index: 100;
+    width: 100%;
+}
+
+#navigation li {
+	padding: 0 10px;
+}
+
+#navigation li a {
+	color: #fff;
+}
+
+.navbar-brand,
+.navbar-brand:hover {
+	color: #fff;
+}
+
+.navbar-toggler-icon {
+	background: url(/Users/carlosaguirre/Desktop/website/images/icons/menu.png);
+	background-size: 100%;
+}
+
+.fixedNav #navigation {
+	position: fixed;
+	top: 0;
 }
