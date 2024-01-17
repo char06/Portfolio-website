@@ -21,3 +21,5 @@ Feel free to explore the various sections to learn more about me, check out the 
 <img width="2226" alt="Screenshot 2024-01-10 at 11 40 22 AM" src="https://github.com/char06/Portfolio-website/assets/24831449/cb1290d1-18fa-412b-85c5-757d344d2bba">
 
 <img width="2164" alt="Screenshot 2024-01-10 at 11 37 27 AM" src="https://github.com/char06/Portfolio-website/assets/24831449/26fe3c68-bfa6-47d1-ac45-d77bbad5f96f">
+
+The projects mentioned in the "Construction" section are actively under development; please note that this serves as a disclaimer indicating their ongoing construction status. 
