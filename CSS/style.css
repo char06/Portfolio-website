@@ -1,330 +1,315 @@
 body {
-    font-size: 14px;
-    color: #333;
-    background-color: #fff;
-    letter-spacing: 1px; 
+  font-size: 14px;
+  color: #333;
+  background-color: #fff;
+  letter-spacing: 1px;
 }
 
 .overlay {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    z-index: 3;
-    background-color: rgba(0,0,0,0.4);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 3;
+  background-color: rgba(0, 0, 0, 0.4);
 }
-.slides-navigation { 
-    z-index: 6;
-    
+.slides-navigation {
+  z-index: 6;
 }
 
-.slides-navigation .prev, 
+.slides-navigation .prev,
 .slides-navigation .next {
-     width: 47px;
-     height: 47px;
-     background-size: cover;
-     background-repeat: no-repeat;
-
+  width: 47px;
+  height: 47px;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .slides-navigation a.prev {
-    left:20px;
-    background-image: url("/Users/carlosaguirre/Desktop/website/images/icons/back.png");
-  
+  left: 20px;
+  background-image: url("/Users/carlosaguirre/Desktop/website/images/icons/back.png");
 }
 
 .slides-navigation a.next {
-    right:20px;
-    background-image: url("/Users/carlosaguirre/Desktop/website/images/icons/next.png"); 
-
+  right: 20px;
+  background-image: url("/Users/carlosaguirre/Desktop/website/images/icons/next.png");
 }
 
 .titlemessage {
-    position: absolute;
-    width: 100%;
-    height: 250px;
-    top: 50%;
-    z-index: 5;
-    text-align: center;
-    margin-top: -125px;
+  position: absolute;
+  width: 100%;
+  height: 250px;
+  top: 50%;
+  z-index: 5;
+  text-align: center;
+  margin-top: -125px;
 }
 
 .titlemessage .heading p {
-    color: #fff;
-    text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4);
-    font-weight: 100;
-    letter-spacing: 7px;
-
+  color: #fff;
+  text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4);
+  font-weight: 100;
+  letter-spacing: 7px;
 }
 
-.titlemessage .heading .main { 
-    font-size: 50px;
+.titlemessage .heading .main {
+  font-size: 50px;
 }
 
-.titlemessage .heading .sub { 
-    font-size: 23px;
+.titlemessage .heading .sub {
+  font-size: 23px;
 }
 
-.section { 
-    padding: 100px 0;
+.section {
+  padding: 100px 0;
 }
 
 .aboutImage {
-    max-width: 100%;
-     
+  max-width: 100%;
 }
 
 .skillsSection,
-.contactSection { 
-    background-color: black;
-    color: #fff;
+.contactSection {
+  background-color: black;
+  color: #fff;
 }
 
 .skill {
-    text-align: center;
-
+  text-align: center;
 }
 
 .chart {
-    position: relative;
-    width: 152px;
-    height: 152px;
-    display: inline-block;
-    text-align: center;
+  position: relative;
+  width: 152px;
+  height: 152px;
+  display: inline-block;
+  text-align: center;
 }
 
-.chart canvas { 
-    position: absolute;
-    left: 0; 
-    top: 0; 
+.chart canvas {
+  position: absolute;
+  left: 0;
+  top: 0;
 }
 
-.chart .percent { 
-    color: white;
-    line-height: 152px;
-    display: inline-block;
-    font-size: 35px; 
+.chart .percent {
+  color: white;
+  line-height: 152px;
+  display: inline-block;
+  font-size: 35px;
 }
 
-.chart .percent:after { 
-    content: '%'; 
+.chart .percent:after {
+  content: "%";
 }
 
 .squareItem {
-	margin-top: 30px;
-    position: relative;
+  margin-top: 30px;
+  position: relative;
 }
 
 .squareInnerContainer {
-	position: relative;
-	padding: 50px 15px 35px;
-	text-align: center;
-	border: 2px solid #444;
-	border-top: none;
+  position: relative;
+  padding: 50px 15px 35px;
+  text-align: center;
+  border: 2px solid #444;
+  border-top: none;
 }
 
 .squareInnerContainer:before,
 .squareInnerContainer:after {
-	content: '';
-	position: absolute;
-	top: 0px;
-	width: 30%;
-	border-bottom: 2px solid #444;
+  content: "";
+  position: absolute;
+  top: 0px;
+  width: 30%;
+  border-bottom: 2px solid #444;
 }
 
-
 .squareInnerContainer:before {
-	right: 0px;
+  right: 0px;
 }
 
 .squareInnerContainer:after {
-	left: 0px
+  left: 0px;
 }
 
 .squareContent h2 {
-	font-size: 56px;
-	margin-bottom: 10px;
-	font-weight: 400;
-	color: #444;
+  font-size: 56px;
+  margin-bottom: 10px;
+  font-weight: 400;
+  color: #444;
 }
 
 .squareContent h3 {
-	font-size: 13px;
-	font-weight: 600;
-	margin: 0;
+  font-size: 13px;
+  font-weight: 600;
+  margin: 0;
 }
 
 .squareIcon {
-	position: absolute;
-	left: 50%;
-	top: -30px;
-    width: 40%;
-    height: 60px;
-    font-size: 45px;
-    margin-left: -20%;
+  position: absolute;
+  left: 50%;
+  top: -30px;
+  width: 40%;
+  height: 60px;
+  font-size: 45px;
+  margin-left: -20%;
 }
 
 .contactButton {
-	color: #fff;
-    padding: 15px 20px;
-    display: inline-block;
-    margin-top: 20px;
-    border: 1px solid #fff;
-    border-radius: 2px;
-    text-decoration: none;
+  color: #fff;
+  padding: 15px 20px;
+  display: inline-block;
+  margin-top: 20px;
+  border: 1px solid #fff;
+  border-radius: 2px;
+  text-decoration: none;
 }
 
 .contactButton:hover {
-	text-decoration: none;
-	color: #0a0909;
-	background-color: #fff;
+  text-decoration: none;
+  color: #0a0909;
+  background-color: #fff;
 }
 
-.filter a { 
-    color: black; 
-    border: 1px solid black;
-    padding: 10px 18px; 
-    display: block;
-    text-decoration: none;
-
+.filter a {
+  color: black;
+  border: 1px solid black;
+  padding: 10px 18px;
+  display: block;
+  text-decoration: none;
 }
 
-.filter li { 
-    display: inline-block;
-    padding: 5px;
-
-
+.filter li {
+  display: inline-block;
+  padding: 5px;
 }
 
-.filter .current { 
-    background-color: black;
-    border-color: black;
-    color: #fff;
+.filter .current {
+  background-color: black;
+  border-color: black;
+  color: #fff;
 }
 
 .filter {
-    text-align: center;
-    width: 100%;
-    
+  text-align: center;
+  width: 100%;
 }
 
 .section .heading {
-    text-align: center;
-    padding-bottom: 40px;
-    width: 100%; 
-
+  text-align: center;
+  padding-bottom: 40px;
+  width: 100%;
 }
 
 .items li {
-	display: inline-block;
-	padding: 5px;
+  display: inline-block;
+  padding: 5px;
 }
 
 .itemsContainer {
-	width: 100%;
- 
+  width: 100%;
 }
 
-
 .items li img {
-	width: 100%;
+  width: 100%;
 }
 
 .items .item {
-	position: relative;
-	display: block;
-	overflow: hidden;
-
+  position: relative;
+  display: block;
+  overflow: hidden;
 }
 
 .items .icons {
-	position: absolute;
-    width: 90px;
-    height: 40px;
-    left: 50%;
-    top: 50%;
-    margin: -20px auto 0 -47px;
-    text-align: center;
-    z-index: 3;
+  position: absolute;
+  width: 90px;
+  height: 40px;
+  left: 50%;
+  top: 50%;
+  margin: -20px auto 0 -47px;
+  text-align: center;
+  z-index: 3;
 }
 
 .items .icons i {
-	color: #fff;
-    font-size: 20px;
-    margin-top: 9px;
+  color: #fff;
+  font-size: 20px;
+  margin-top: 9px;
 }
 
 .items a {
-	width: 40px;
-    height: 40px;
-    background-color:#010101;
-    position: relative;
-    display: inline-block;
-
+  width: 40px;
+  height: 40px;
+  background-color: #010101;
+  position: relative;
+  display: inline-block;
 }
 
 .items .imageOverlay {
-	width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    opacity: 0;
-
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  opacity: 0;
 }
 
 .items .item:hover .imageOverlay {
-	opacity: 1;
+  opacity: 1;
 }
 
 .items .openButton {
-	float: left;
-	left: -200px;
+  float: left;
+  left: -200px;
 }
 
 .items .projectLink {
-	float: right;
-	right: -200px;
+  float: right;
+  right: -200px;
 }
 
 .items .item:hover .openButton {
-	left: 0px;
+  left: 0px;
 }
 
 .items .item:hover .projectLink {
-	right: 0px;
+  right: 0px;
 }
 
 .items {
-	padding: 0;
+  padding: 0;
 }
 
 #navigation {
-	background-color: #000000;
-    padding: 20px 10px;
-    z-index: 100;
-    width: 100%;
+  background-color: #000000;
+  padding: 20px 10px;
+  z-index: 100;
+  width: 100%;
 }
 
 #navigation li {
-	padding: 0 10px;
+  padding: 0 10px;
 }
 
 #navigation li a {
-	color: #fff;
+  color: #fff;
 }
 
 .navbar-brand,
 .navbar-brand:hover {
-	color: #fff;
+  color: #fff;
 }
 
 .navbar-toggler-icon {
-	background: url(images/icons/menu.png);
-	background-size: 100%;
+  background: url(images/icons/menu.png) no-repeat;
+  background-size: contain; /* Adjust as needed */
+  width: 30px; /* Adjust as needed */
+  height: 30px; /* Adjust as needed */
+  display: inline-block; /* Ensure it behaves like an inline element */
 }
 
 .fixedNav #navigation {
-	position: fixed;
-	top: 0;
+  position: fixed;
+  top: 0;
 }
